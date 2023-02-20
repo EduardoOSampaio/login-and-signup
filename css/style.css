@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #8a2be2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    height: 480px;
+    
+}
+
+.left img {
+    height: 480px;
+    border-radius: 10px 0 0 10px;
+    box-shadow: 1px 10px 10px #4e148c;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 480px;
+    background-color: #b537f2;
+    box-shadow: 10px 10px 10px #4e148c;
+    border-radius: 0 10px 10px 0;
+}
+
+.right h1 {
+    padding: 10px;
+    color: #120052;
+    font-family: "Roboto Condensed" sans-serif;
+}
+
+.right p {
+    margin-left: 10px;
+    padding: 10px;
+    color: #4e148c;
+    font-family: "Libre Baskerville" sans-serif;
+    font-size: 16px;
+}
+
+.right input {
+    appearance: none;
+    border: none;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #9edafb;
+    color: black;
+}
+
+#logar:hover {
+    background-color: #3cb9fc;
+    cursor: pointer;
+}
+
+
+a:hover {
+    color: #3f00ff;
+    text-decoration: none;
+}
